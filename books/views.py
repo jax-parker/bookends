@@ -34,8 +34,21 @@ class AddBook(LoginRequiredMixin, CreateView):
         form.instance.user = self.request.user
         return super(AddBook, self).form_valid(form)
 
-class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+class ConfirmDelete(LoginRequiredMixin, UserPassesTestMixin, ListView):
     """ Delete a book"""
+    model = Books
+    success_url = '/books/'
+    template_name = "books/book_confirm_delete.html"
+
+    def test_func(self):
+        book = self.get_object()
+        return self.request.user == book.user
+
+    def get_object(self, queryset=None):
+        pk = self.kwargs.get('pk')
+        return self.model.objects.get(pk=pk)
+
+class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Books
     success_url = '/books/'
 
