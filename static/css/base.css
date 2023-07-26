@@ -136,12 +136,7 @@ img.logo {
         border:1px solid var(--blue);
     }
 
-    .description{
-        width:33.33%;
-    }
-    .comments {
-        width: 66.66%;
-    }
+    
 }
 
 
