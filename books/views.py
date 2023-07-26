@@ -8,7 +8,6 @@ class Books(ListView):
     """
     View all books
     """
-
     template_name = "books/books.html"
     model = Books
     context_object_name = "books"
@@ -18,7 +17,6 @@ class BookDetail(DetailView):
     """
     View to see a book in detail
     """
-
     template_name = "books/book_detail.html"
     model = Books
     context_object_name = "book"
