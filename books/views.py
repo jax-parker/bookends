@@ -1,5 +1,5 @@
-from django.views.generic import CreateView, ListView, DetailView
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import (CreateView, ListView, DetailView, DeleteView)
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from .models import Books
 from .forms import BookForm
 
@@ -33,3 +33,11 @@ class AddBook(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(AddBook, self).form_valid(form)
+
+class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+    """ Delete a book"""
+    model = Books
+    success_url = '/books/'
+
+    def test_func(self):
+        return self.request.user == self.get_object().user

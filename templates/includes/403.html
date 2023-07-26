@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Delete Book{% endblock %}
+
+{% block content %}
+
+<div class="container text-center">
+    <h1>403 - Unauthorised</h1>
+    <p>You are not authorised to delete this book.</p>
+    <a href="{% url 'home' %}" class="btn btn-secondaryw-25">Home</a>
+</div>
+
+{% endblock %}

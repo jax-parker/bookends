@@ -14,7 +14,7 @@
             <p class="text-center">Posted by {{book.user}} on {{book.posted_date}}</p>
             <hr>
             <!--<p><strong>Author: </strong>{{book.author}}</p>-->
-            <p><strong>Book Type: </strong>{{book.book_type}}</p>
+            <p><strong>Book Type: </strong>{{book.book_type|title}}</p>
             <div class="description p-3">
                 <h2>Description</h2>
                 <p>{{ book.description|safe }}</p>
