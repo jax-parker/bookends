@@ -1,8 +1,9 @@
-from djando.views.generic import CreateView
+from django.views.generic import CreateView
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Books
 from .forms import BookForm
 
-class AddBook(CreateView):
+class AddBook(LoginRequiredMixin,CreateView):
     """ Add book view """
     template_name = 'books/add_book.html'
     model = Books
