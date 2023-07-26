@@ -15,6 +15,16 @@
             <hr>
             <!--<p><strong>Author: </strong>{{book.author}}</p>-->
             <p><strong>Book Type: </strong>{{book.book_type}}</p>
+        </div>
+        <div class="book-container">
+            <div class="description p-3">
+                <h2>Description</h2>
+                <p>{{ book.description|safe }}</p>
+            </div>
+            <div class="comments p-3">
+                <h2>Review</h2>
+                <p>{{ book.comments|safe }}</p>
+            </div>
 
             {% if request.user == book.user %}
             <div class="text-center">
@@ -24,16 +34,7 @@
 
             {% endif %}
         </div>  
-    </div>
-    <div class="book-container">
-        <div class="description p-3">
-            <h2>Description</h2>
-            <p>{{ book.description|safe }}</p>
-        </div>
-        <div class="comments p-3">
-            <h2>Review</h2>
-            <p>{{ book.comments|safe }}</p>
-        </div>
+    
     </div>
 </div>
 

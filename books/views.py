@@ -4,7 +4,7 @@ from .models import Books
 from .forms import BookForm
 
 
-class Books(ListView):
+class BooksView(ListView):
     """
     View all books
     """
