@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     flex: 1 0 auto;
-    background-color: var(--off_white);
+    background-color: var(--white);
 }
 
 footer {
@@ -57,12 +57,12 @@ footer {
 /* Header */
 
 .navbar {
-    background-color: var(--blue);
+    background-color: var(--off_white);
     box-shadow: var(--sm_box_shadow);
 }
 
 a.nav-link {
-    color: var(--off_white);
+    color: var(--blue);
 }
 
 img.logo {
