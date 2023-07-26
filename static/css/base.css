@@ -75,3 +75,21 @@ img.logo {
     font-weight: 500;
 }
 
+/* Books */
+
+.card {
+    height:90%;
+    margin-top: 1rem;
+}
+
+.books {
+    text-decoration: none;
+    color: var(--blue)
+}
+
+.books:hover {
+    cursor: pointer;
+}
+
+
+
