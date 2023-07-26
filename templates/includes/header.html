@@ -19,7 +19,7 @@
                         <a class="nav-link" href="#">Book List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Add A Review</a>
+                        <a class="nav-link" href="{% url 'add_book' %}">Add A Review</a>
                     </li>
                     {% if request.user.is_authenticated %}
                     <li class="nav-item">
