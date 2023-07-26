@@ -1,7 +1,18 @@
-from django.views.generic import CreateView
+from django.views.generic import CreateView, ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Books
 from .forms import BookForm
+
+
+
+
+class Books(ListView):
+    """ 
+    View all books
+    """
+    template_name = 'books/books.html'
+    model = Books
+    context_object_name = 'books'
 
 class AddBook(LoginRequiredMixin,CreateView):
     """ Add book view """
