@@ -80,3 +80,5 @@ class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     def test_func(self):
         return self.request.user == self.get_object().user
 
+
+
