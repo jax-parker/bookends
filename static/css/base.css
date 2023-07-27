@@ -41,6 +41,7 @@ main {
 .logo {
     border: 1px solid var(--off_white);
     border-radius: 5px;
+    width: auto;
 }
 
 footer {
@@ -97,7 +98,7 @@ img.logo {
 /* Books */
 
 .card {
-    height:90%;
+    height:95%;
     margin-top: 1rem;
 }
 
@@ -115,6 +116,7 @@ img.logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--off_white);
 }
 
 .book-container {
@@ -156,7 +158,7 @@ a.img-container {
     background-color: var(--off_white);
 }
 
-a.img-container:hover {
+a .img-container:hover {
     color: var(--light_teal);
 }
 

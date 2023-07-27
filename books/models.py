@@ -11,6 +11,14 @@ BOOK_TYPES = (
     ("historical", "Historical"),
     ("romance", "Romance"),
     ("dystopian", "Distopian"),
+    ("fantasy", "Fantasy"),
+    ("science-fiction", "Science Fiction"),
+    ("action-adventure", "Action/Adventure"),
+    ("thriller", "Thriller"),
+    ("lgbtq+", "LGBTQ+"),
+    ("childrens", "Childrens"),
+    ("biography", "Biograppy"),
+    ("self-help", "Self-Help"),
 )
 
 
