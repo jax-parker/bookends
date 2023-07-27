@@ -1,5 +1,5 @@
-from django.views.generic import TemplateView
+from django.views.generic import ListView
 
 
-class Index(TemplateView):
+class Index(ListView):
     template_name = 'home/index.html'

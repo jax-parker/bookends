@@ -1,5 +1,6 @@
 from django.views.generic import (CreateView, ListView, DetailView, DeleteView, UpdateView)
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
+from django.db.models import Q
 from .models import Books
 from .forms import BookForm
 
@@ -11,6 +12,19 @@ class BooksView(ListView):
     template_name = "books/books.html"
     model = Books
     context_object_name = "books"
+
+    def get_queryset(self, **kwargs):
+        query = self.request.GET.get('q')
+        if query:
+            books = self.model.objects.filter(
+                Q(title__icontains=query) |
+                #Q(author__icontains=query) |
+                Q(description__icontains=query) |
+                Q(book_type__icontains=query)
+            )
+        else:
+            books = self.model.objects.all()
+        return books
 
 
 class BookDetail(DetailView):
