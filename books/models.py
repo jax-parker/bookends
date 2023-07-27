@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from djrichtextfield.models import RichTextField
 from django_resized import ResizedImageField
+from django.utils.text import slugify
 
 BOOK_TYPES = (
     ("mystery", "Mystery"),
@@ -18,7 +19,7 @@ class Books(models.Model):
 
     user = models.ForeignKey(User, related_name="book_owner", on_delete=models.CASCADE)
     title = models.CharField(max_length=300, null=False, blank=False)
-    # author = models.CharField(max_length=300, null=True, blank=True)
+    author = models.CharField(max_length=300, null=True, blank=True)
     description = models.CharField(max_length=500, null=False, blank=False)
     comments = RichTextField(max_length=10000, null=False, blank=False)
     image = ResizedImageField(
@@ -32,9 +33,17 @@ class Books(models.Model):
     image_alt = models.CharField(max_length=100, null=False, blank=False)
     book_type = models.CharField(max_length=50, choices=BOOK_TYPES, default="mystery")
     posted_date = models.DateTimeField(auto_now=True)
+    slug = models.SlugField(blank=True, null=True)
+
+    def save(self, *args, **kwargs):
+        if not self.slug and self.title:
+            self.slug = slugify(self.title)
+            super(Books, self).save(*args, **kwargs)
 
     class Meta:
         ordering = ["-posted_date"]
+        verbose_name = 'book'
+        verbose_name_plural = 'books'
 
     def __str__(self):
         return str(self.title)

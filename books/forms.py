@@ -10,7 +10,7 @@ class BookForm(forms.ModelForm):
         model = Books
         fields = [
             "title",
-            #'author',
+            "author",
             "description",
             "comments",
             "image",
@@ -26,7 +26,7 @@ class BookForm(forms.ModelForm):
 
         labels = {
             "title": "Book Title",
-            #'author' : 'Book Author',
+            'author' : 'Book Author',
             "description": "Story Description",
             "comments": "Book Review",
             "image": "Book Image",

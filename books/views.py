@@ -18,7 +18,7 @@ class BooksView(ListView):
         if query:
             books = self.model.objects.filter(
                 Q(title__icontains=query) |
-                #Q(author__icontains=query) |
+                Q(author__icontains=query) |
                 Q(description__icontains=query) |
                 Q(book_type__icontains=query)
             )
