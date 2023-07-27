@@ -1,4 +1,4 @@
-from django.views.generic import (CreateView, ListView, DetailView, DeleteView)
+from django.views.generic import (CreateView, ListView, DetailView, DeleteView, UpdateView)
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from .models import Books
 from .forms import BookForm
@@ -34,6 +34,17 @@ class AddBook(LoginRequiredMixin, CreateView):
         form.instance.user = self.request.user
         return super(AddBook, self).form_valid(form)
 
+class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+    """ Edit a review """
+    template_name = "books/edit_review.html"
+    model = Books
+    form_class= BookForm
+    success_url = '/books'
+
+    def test_func(self):
+        return self.request.user == self.get_object().user
+
+
 class ConfirmDelete(LoginRequiredMixin, UserPassesTestMixin, ListView):
     """ Delete a book"""
     model = Books
@@ -54,3 +65,4 @@ class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 
     def test_func(self):
         return self.request.user == self.get_object().user
+
