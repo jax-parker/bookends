@@ -12,6 +12,7 @@
     --white: #ffffff;
     --blend: #00CFC8;
     --light_teal: #03fff6;
+    --blue-hue: #cecde1;
 
     /* Utils */
     --sm_box_shadow: 1px -1px 7px 0 #00000061;
@@ -35,7 +36,11 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     flex: 1 0 auto;
-    background-color: var(--white);
+    background-color: var(--blue-hue);
+}
+.logo {
+    border: 1px solid var(--off_white);
+    border-radius: 5px;
 }
 
 footer {
@@ -57,12 +62,26 @@ footer {
 /* Header */
 
 .navbar {
-    background-color: var(--off_white);
+    background-color: var(--blue);
     box-shadow: var(--sm_box_shadow);
+    
 }
 
 a.nav-link {
-    color: var(--blue);
+    color: var(--white);
+}
+
+.navbar-nav {
+    color:var(--white);
+}
+
+.navbar-nav .nav-link.active {
+    color:var(--white);
+    
+}
+
+.navbar-toggler-icon {
+    color: (var(--white));
 }
 
 img.logo {
@@ -89,6 +108,7 @@ img.logo {
 
 .books:hover {
     cursor: pointer;
+    color: var(--light_teal);
 }
 
 .book-info {
@@ -121,6 +141,7 @@ img.logo {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+     
 }
 
 a.img-container {
@@ -132,6 +153,7 @@ a.img-container {
     text-decoration: none;
     border: 1px solid var(--blue);
     box-shadow: var(--sm_box_shadow);
+    background-color: var(--off_white);
 }
 
 a.img-container:hover {
@@ -139,7 +161,7 @@ a.img-container:hover {
 }
 
 .img-container img {
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
@@ -151,6 +173,7 @@ a.img-container:hover {
     left:50%
     
 }
+
 
 @media screen and (min-width: 62.5em) {
     .book-img {

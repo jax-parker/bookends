@@ -15,21 +15,20 @@
 
             When decision fatigue sets in, picking the next group read can be the hardest part of the process. But fear
             not, because we are here to help. Whether you are looking for cutting-edge releases new for 2021 or classic
-            recommendations, we have selected some of the very best book club books sure to spark conversation. So get that
+            recommendations, we have selected some of the very best book club books sure to spark conversation. So get
+            that
             coffee brewing and have your page tabs handy, because we are ready to dive in!
         </p>
+    </section>
     </section>
     <section>
         <div class="book-cont">
             {% for book in books %}
             <a href="{% url 'book_detail' book.id %}" class="img-container">
-                <img src="{{book.image.url}}" alt="{{book.image_alt}}" style="width: 10%">
-                <div class="centered">
-                    <h2>{{book.title}}</h2>
-                </div>
+                <img src="{{book.image.url}}" alt="{{book.image_alt}}" class="img-home">
             </a>
             {% endfor %}
         </div>
 
 
-{% endblock %}5
+        {% endblock %}
