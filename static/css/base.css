@@ -62,9 +62,11 @@ footer {
 .form {
     width:100%;
     box-shadow: var(--sm_box_shadow);
+    background-color: var(--off_white);
     margin: 3% auto;
     border-radius: 5px;
     border-color: var(--blue);
+    b
 }
 
 /* Header */
