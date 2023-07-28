@@ -19,6 +19,8 @@ BOOK_TYPES = (
     ("childrens", "Childrens"),
     ("biography", "Biograppy"),
     ("self-help", "Self-Help"),
+    ("travel", "Travel"),
+    ("comedy", "Comedy"),
 )
 
 

@@ -8,9 +8,7 @@
     /*Colours*/
     --off_white: #e6e6e6;
     --blue: #0c056d;
-    --dark_teal: #009c97;
     --white: #ffffff;
-    --blend: #00CFC8;
     --light_teal: #03fff6;
     --blue-hue: #cecde1;
 
@@ -52,7 +50,6 @@ footer {
     justify-content: center;
     align-items: center;
     border-top: var(--border);
-
 }
 
 .social-icon {
@@ -79,10 +76,6 @@ a.nav-link {
 .navbar-nav .nav-link.active {
     color:var(--white);
     
-}
-
-.navbar-toggler-icon {
-    color: (var(--white));
 }
 
 img.logo {
@@ -176,6 +169,7 @@ a .img-container:hover {
     
 }
 
+/* Media */
 
 @media screen and (min-width: 62.5em) {
     .book-img {
@@ -195,8 +189,6 @@ a .img-container:hover {
         flex-direction: row;
         border:1px solid var(--blue);
     }
-
-    
 }
 
 @media screen and (min-width: 40em) {
