@@ -66,6 +66,9 @@ INSTALLED_APPS = [
 
 SITE_ID = 1
 
+LOGOUT_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = '/'
+
 DJRICHTEXTFIELD_CONFIG = {
     'js': ['//cdn.ckeditor.com/4.14.0/standard/ckeditor.js'],
     'init_template': 'djrichtextfield/init/ckeditor.js',
@@ -181,13 +184,13 @@ USE_TZ = True
 
 # Account Setup
 
-ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
-ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_USERNAME_REQUIRED = True
-ACCOUNT_EMAIL_VERIFCATION = 'none'
-ACCOUNT_USERNAME_MIN_LENGTH = 4
-LOGIN_URL = '/account/login/'
-LOGIN_REDIRECT_URL = '/'
+#ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+#ACCOUNT_EMAIL_REQUIRED = True
+#ACCOUNT_USERNAME_REQUIRED = True
+#ACCOUNT_EMAIL_VERIFCATION = 'none'
+#ACCOUNT_USERNAME_MIN_LENGTH = 4
+#LOGIN_URL = '/account/login/'
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/

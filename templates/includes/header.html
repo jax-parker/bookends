@@ -27,17 +27,17 @@
                     </li>
                     {% if request.user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link {% if url_name == 'accounts_logout' %}active{% endif %}"
-                            href="/accounts/logout/">Logout</a>
+                        <a class="nav-link {% if url_name == 'account_logout' %}active{% endif %}"
+                            href="/account/logout/">Logout</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link {% if url_name == 'accounts_signup' %}active{% endif %}"
-                            href="/accounts/signup/">Register</a>
+                        <a class="nav-link {% if url_name == 'account_signup' %}active{% endif %}"
+                            href="/account/signup/">Sign Up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if url_name == 'accounts_login' %}active{% endif %}"
-                            href="/accounts/login/">Login</a>
+                        <a class="nav-link {% if url_name == 'account_login' %}active{% endif %}"
+                            href="/account/login/">Login</a>
                     </li>
                     {% endif %}
                 </ul>
