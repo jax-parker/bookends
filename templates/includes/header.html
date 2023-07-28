@@ -29,6 +29,10 @@
                             href="{% url 'add_book' %}">Add A Review</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link {% if url_name == 'user_books' %}active{% endif %}"
+                            href="/books/user_books">Your Books</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link {% if url_name == 'account_logout' %}active{% endif %}"
                             href="/account/logout/">Logout</a>
                     </li>

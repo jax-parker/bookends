@@ -3,6 +3,7 @@ from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django.db.models import Q
 from .models import Books
 from .forms import BookForm
+from django.shortcuts import render
 
 
 class BooksView(ListView):
@@ -81,4 +82,12 @@ class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         return self.request.user == self.get_object().user
 
 
+
+def user_books(request):
+    if request.user.is_authenticated:
+        user_books = Books.objects.filter(user=request.user)
+    else:
+        user_books = Books.objects.none()
+
+    return render(request, 'books/user_books.html', {'user_books': user_books})
 
