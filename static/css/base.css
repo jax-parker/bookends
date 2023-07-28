@@ -57,6 +57,16 @@ footer {
     margin: 1rem;
 }
 
+/* Forms */
+
+.form {
+    width:100%;
+    box-shadow: var(--sm_box_shadow);
+    margin: 3% auto;
+    border-radius: 5px;
+    border-color: var(--blue);
+}
+
 /* Header */
 
 .navbar {
