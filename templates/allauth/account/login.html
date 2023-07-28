@@ -9,16 +9,17 @@
 
 <div class="container text-center">
   <h3>{% trans "Sign In" %}</h3>
-  <p>{% blocktrans %}Welcome back to Bookend. To leave a comment or like a post, please log in. If you
+  <p>{% blocktrans %}Welcome back to Bookends. To add a book review, please log in. If you
     have not created an account yet, then <a class="link" href="{{ signup_url }}">Sign Up</a>
     first.{% endblocktrans %}</p>
+
   <form class="form p-2 pt-3" method="POST" action="{% url 'account_login' %}">
     {% csrf_token %}
-    {{ form.as_p }}
+    {{ form|crispy }}
     {% if redirect_field_value %}
     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
     {% endif %}
-    <button class="btn btn-secondary-25 mb-2" type="submit">{% trans "Sign In" %}</button>
+    <button class="btn btn-secondary w-25 mb-2" type="submit">{% trans "Sign In" %}</button>
   </form>
 </div>
 {% endblock %}

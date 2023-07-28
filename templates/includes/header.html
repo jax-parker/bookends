@@ -15,8 +15,11 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active link" aria-current="page" href="{% url 'home' %}">Home</a>
+                        <a class="nav-link {% if url_name == 'home' %}active{% endif %}" aria-current="page"
+                            href="{% url 'home' %}">Home</a>
                     </li>
+
+                    {% if request.user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link {% if url_name == 'books' %}active{% endif %}" href="{% url 'books' %}">Book
                             List</a>
@@ -25,7 +28,6 @@
                         <a class="nav-link {% if url_name == 'add_book' %}active{% endif %}"
                             href="{% url 'add_book' %}">Add A Review</a>
                     </li>
-                    {% if request.user.is_authenticated %}
                     <li class="nav-item">
                         <a class="nav-link {% if url_name == 'account_logout' %}active{% endif %}"
                             href="/account/logout/">Logout</a>
