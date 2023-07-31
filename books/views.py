@@ -81,9 +81,7 @@ class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     def test_func(self):
         return self.request.user == self.get_object().user
 
-
-
-def user_books(request):
+def books(request):
     if request.user.is_authenticated:
         user_books = Books.objects.filter(user=request.user)
     else:
