@@ -1,4 +1,5 @@
-from django.views.generic import (CreateView, ListView, DetailView, DeleteView, UpdateView)
+from django.views.generic import (
+    CreateView, ListView, DetailView, DeleteView, UpdateView)
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django.db.models import Q
 from .models import Books
@@ -16,6 +17,7 @@ class BooksView(ListView):
 
     def get_queryset(self, **kwargs):
         query = self.request.GET.get('q')
+    
         if query:
             books = self.model.objects.filter(
                 Q(title__icontains=query) |
@@ -26,6 +28,7 @@ class BooksView(ListView):
         else:
             books = self.model.objects.all()
         return books
+
 
 
 class BookDetail(DetailView):
