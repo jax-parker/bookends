@@ -16,6 +16,7 @@
     </ul>
     {% else %}
     <p>No books added yet.</p>
+    <a href="{% url 'book_detail' %}" class="btn btn-secondary w-25">Return To Book List</a>
     {% endif %}
 </div>
 

@@ -12,13 +12,19 @@
         <div class="card m-3" style="width: 18rem;">
             <img src="{{book.image.url}}" class="card-img-top" alt="{{book.image_alt}}">
             <div class="card-body">
-              <h2 class="card-title">{{book.title}}</h2>
-              <p class="card-text">{{book.description|truncatechars:100}}</p>
+                <h2 class="card-title">{{book.title}}</h2>
+                <p class="card-text">{{book.description|truncatechars:100}}</p>
             </div>
         </div>
     </a>
     {% empty %}
-    <p> Sorry no books found </p>
+    <div>
+        <p> Sorry no books found </p>
+
+        <div class="text-center">
+            <a href="{% url 'books' %}" class="btn btn-secondary" aria-label="Return To Book List">Return To Book List</a>
+        </div>
+    </div>
     {% endfor %}
 </div>
 
