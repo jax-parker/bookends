@@ -71,6 +71,8 @@ A User Story template was created then Github issues were used to create User St
 ![Search Not Found Page]()
 
 ## Database Schema
+<details> <summary>Database layout using Exclaidraw</summary>
+![Database Schema](/workspace/bookends/readme/readme-imgs/database-schema.png)
 
 ## Site Structure
 
