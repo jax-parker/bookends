@@ -21,11 +21,30 @@ The Agile Methodology was used to plan this project. This was implemented throug
 Through the use of the Kanban board in the projects view in Github, the project was divided into a few different sections:
 ![Kanban board github](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690981983/kanban-board_vr0jps.png)
 
-Github issues were used to create User Stories for the project.  
+A User Story template was created then Github issues were used to create User Stories for the project.  
 
 ### User Stories
 
-**User Story <Title>**
+**User Story: Account Registration**
+* As a Site User I can register an account so that I can view books or add a review
+
+**User Story: LogIn/LogOut/SignUp**
+* As a Returning Site User I can log in, view books in detail, create my own book listing and review and log out.
+
+**User Story: View Book List**
+* As a Site User I can view a list of books so that I can see the book cover, title and description.
+
+**User Story: Book Detail**
+* As a Site User I can click on a book in the list view so I can read more details and the review.
+
+**User Story: Create A Review**
+* As a Site User I can create a book review so that other members can see my reviews.
+
+**User Story: Manage Book Reviews**
+* As a Site User I can create, read, update & delete books so that I can manage my book content
+
+**User Story: Search For Books**
+* As a Site User I can search for books using key words so that I don't have to scroll through the books to get to the one I want
 
 ## Design Wireframes
 
