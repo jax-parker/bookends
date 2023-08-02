@@ -42,6 +42,9 @@ main {
     width: auto;
 }
 
+.btn.btn-outline-secondary{
+    background-color: var(--white);
+}
 footer {
     flex-shrink: 0;
     background-color: var(--blue);

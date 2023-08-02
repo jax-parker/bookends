@@ -70,7 +70,7 @@ A User Story template was created then Github issues were used to create User St
 ![Log Out Page](/__pycache__/static/readme/wireframe-pc-signout.png)
 ![Search Not Found Page]()
 
-## Database Schema
+## Entity Relationship Diagram
 <details> <summary>Database layout using Exclaidraw</summary>
 ![Database Schema](/workspace/bookends/readme/readme-imgs/database-schema.png)
 
@@ -95,14 +95,35 @@ The colour scheme was based around the logo I chose. Looka.com then provided me 
 ### Typography
 I chose two fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
-
 ## Navigation
+The site navigation is done through the navigation bar at the top of each page and does not change in style through out the users navigation of the webisite. 
+There is a search bar which will search through the list of books' titles, authors, description or any word in the review. If nothing is found a page to say there
+was no result is displayed and a button to take the user back to the book list. The nave bar shrinks to a Bootstrap toggle on smaller screens.
 
+![Navbar](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997395/navbar_bqmo5s.png)
+![No Search Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997641/mbview-nosearch_hnb5mr.png)
+![No Search PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690995797/pcview-nosearch_en780f.png)
 ## Home Screen
+The Home Screen is visible when the website is opened. Along with the navbar and the footer, the main section contains a message to explain what the webstie is about
+and displays 3 example book covers. These can be clicked on to see an example of the book detail but the user only has access to these three. They will need to sign up to have
+access to the whole library of books and reviews.
+
+![Home Page Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/home-mbview_qiao1x.png)
+![Home Page PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984230/pcview-home_w5moih.png)
 
 ## Sign Up Screen
+The sign up page is accessed from either the navigation bar or a link on the log in page for any user who may have clicked login by mistake.
+It uses django-allauth and crispy forms to provide the styling and the settings for user authentication. (Username, Email(optional) and Password)
 
+![Sign Up Page Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/mbview-signup_jusatd.png)
+![Sign Up Page PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984230/pcview-signup_kruiu8.png)
 ## Login Screen
+The login page is accessed from either the navigation bar or a link on the sign in page for any user who may have clicked signup by mistake.
+It uses django-allauth and crispy forms to provide the styling and the settings for user authentication.  (Username, Password)
+
+![Login Page Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-signin_lhmrpu.png)
+![Login Page PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/pcview-signin_wlllfu.png)
+
 
 ## Book List Screen
 
