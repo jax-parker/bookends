@@ -19,7 +19,7 @@ You can view the live site here - <a href="https://django-bookends.herokuapp.com
 The Agile Methodology was used to plan this project. This was implemented through Github and the Project Board, which can be seen here -
 
 Through the use of the Kanban board in the projects view in Github, the project was divided into a few different sections:
-![Kanban board github](/readme/kanban-board.png)
+![Kanban board github](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690981983/kanban-board_vr0jps.png)
 
 Github issues were used to create User Stories for the project.  
 
