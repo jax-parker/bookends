@@ -2,22 +2,26 @@
 
 ![Bookends](/static/readme/screenshots.png)
 
-Bookends is a website that provides ideas for book clubs next best read. 
+Bookends is a website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre,
+description and review that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
 
-You can view the live site here - <a href="https://.herokuapp.com/" target="_blank"> Bookends </a>
+You can view the live site here - <a href="https://django-bookends.herokuapp.com/" target="_blank">Bookends </a>
 
 # User Experience (UX)
-
 ## Site Aims
-* To provide the user with a website that allows them to view book listings and reviews
+* To provide the user with a website that allows them to view books, descriptions and reviews
+* To easily find books that may appeal to the members of their book club
+* To allow users that have signed up to create, update, edit or delete their book entries
+* To provide the admin user with the ability to delete users
+* To provide a clear and appropriate response to any user inputs or actions
 
 ## Agile Methodology
 The Agile Methodology was used to plan this project. This was implemented through Github and the Project Board, which can be seen here -
 
 Through the use of the Kanban board in the projects view in Github, the project was divided into a few different sections:
-![Kanban board github]()
+![Kanban board github](/readme/kanban-board.png)
 
-Github issues were used to create User Stories and any other Fixes or Updates for the project. User story was added to the appropriate Iteration and the project. 
+Github issues were used to create User Stories for the project.  
 
 ### User Stories
 
