@@ -1,6 +1,6 @@
 # **Bookends - Project Portfolio 4**
 
-![Bookends](/readme/readme-imgs/screenshots.png)
+[Bookends](/readme/readme-imgs/screenshots.png)
 
 Bookends is a website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre,
 description and review that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
@@ -19,7 +19,7 @@ You can view the live site here - <a href="https://django-bookends.herokuapp.com
 The Agile Methodology was used to plan this project. This was implemented through Github and the Project Board, which can be seen here -
 
 Through the use of the Kanban board in the projects view in Github, the project was divided into a few different sections:
-![Kanban board github](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690981983/kanban-board_vr0jps.png)
+[Kanban board github](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690981983/kanban-board_vr0jps.png)
 
 A User Story template was created then Github issues were used to create User Stories for the project.  
 
@@ -86,12 +86,12 @@ added.
 ## Design Choices
 
 ### Logo
-I used a website called ![Looka.com](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which
+I used a website called [Looka.com] (https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which
 would be best for your design. 
 
 ### Colour Scheme
 The colour scheme was based around the logo I chose. Looka.com then provided me with a colour palette to use within my project.
-![Colour Palette](readme/readme-imgs/color-palette.png)
+[Colour Palette](readme/readme-imgs/color-palette.png)
 ### Typography
 I chose two fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
