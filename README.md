@@ -49,9 +49,9 @@ A User Story template was created then Github issues were used to create User St
 ## Design Wireframes
 
 <details> <summary> Low fidelity mobile wireframes</summary>
-![Home Page](/workspace/bookends/static/readme/wireframe-mb-home.png)
-![Book List Page](/static/readme/wireframe-mb-listview.png)
-![Book Detail Page](/static/readme/wireframe-mb-detailview.png)
+![Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/home-mbview_qiao1x.png)
+![Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-booklist_iifrmy.png)
+![Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/mbview-bookdetail_xkesu9.png)
 ![Add A Review Page](/static/readme/wireframe-mb-addreview.png)
 ![Your Books Page](/static/readme/wireframe-mb-yourbooks.png)
 ![Log In Page](/static/readme/wireframe-mb-signin.png)
