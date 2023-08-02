@@ -48,6 +48,28 @@ A User Story template was created then Github issues were used to create User St
 
 ## Design Wireframes
 
+<details> <summary> Low fidelity mobile wireframes</summary>
+![Home Page](static/readme/wireframe-mb-home.png)
+![Book List Page](static/readme/wireframe-mb-listview.png)
+![Book Detail Page](static/readme/wireframe-mb-detailview.png)
+![Add A Review Page](static/readme/wireframe-mb-addreview.png)
+![Your Books Page](static/readme/wireframe-mb-yourbooks.png)
+![Log In Page](static/readme/wireframe-mb-signin.png)
+![Sign Up Page](static/readme/wireframe-mb-signup.png)
+![Log Out Page](static/readme/wireframe-mb-signout.png)
+![Search Not Found Page]()
+
+<details> <summary> Low fidelity pc wireframes</summary>
+![Home Page](static/readme/wireframe-pc-home.png)
+![Book List Page](static/readme/wireframe-pc-listview.png)
+![Book Detail Page](static/readme/wireframe-pc-detailview.png)
+![Add A Review Page](static/readme/wireframe-pc-addreview.png)
+![Your Books Page](static/readme/wireframe-pc-yourbooks.png)
+![Log In Page](static/readme/wireframe-pc-signin.png)
+![Sign Up Page](static/readme/wireframe-pc-signup.png)
+![Log Out Page](static/readme/wireframe-pc-signout.png)
+![Search Not Found Page]()
+
 ## Database Schema
 
 ## Site Structure
