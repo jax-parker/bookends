@@ -161,6 +161,11 @@ When a user types into the search bar but nothing is found a page to say there w
 ![No Search Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997641/mbview-nosearch_hnb5mr.png)
 ![No Search PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690995797/pcview-nosearch_en780f.png)
 
+## Footer
+The footer contains social icons which could link to the websites social media sites. They have not been linked for this project
+
+![Footer](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691005624/Footer_jsruj9.png)
+
 # Technologies Used
 
 * HTML - Used to structure all the templates on the site
@@ -172,6 +177,8 @@ When a user types into the search bar but nothing is found a page to say there w
 * Bootstrap5 -  used for providing layouts and styling the html in the templates
 * Balsamiq - Used to create wireframes for the project
 * Cloudinary - Used to host Static files for the site
+* Excalidraw- Used to create the Entity Relationship Diagram and Code Schema
+* Looka.com- Used to create the Bookends Logo
 
 [Back to top](<#contents>)
 
@@ -242,7 +249,8 @@ In addition to the other tests, I have conducted a manual check list for myself 
 * Add env.py to the .gitignore file
 * In env.py import the os library
 * In env.py add `os.environ["DATABASE_URL"]` = "Paste in the text link copied above from Heroku DATABASE_URL"
-* In env.py add `os.environ["SECRET_KEY"] = "Make up your own random secret key"`
+* In env.py add `os.environ["SECRET_KEY"] = "Make up your own random secret key"
+* In env.py add `os.environ["CLOUDINARY]` = "Paste in the API Environment Variable link from Cloudinary and remove the prefix"
 * In Heroku Settings tab Config Vars enter the same secret key created in env.py by entering 'SECRET_KEY' in the box for 'KEY' and your randomly created secret key in the 'value' box.
 
 ### 4. Setting up settings.py
