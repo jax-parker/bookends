@@ -79,8 +79,15 @@ A User Story template was created then Github issues were used to create User St
 ![Code Schema](/readme/readme-imgs/code-schema.png)
 
 ## Site Structure
+From the home page, Bookends website has three pages visible in the navigation bar plus the search bar; Home, Sign Up and Login. Once signed in the nav bar also
+has Book List, Add A Review, Your Books and Logout. This ensures that only users that have signed in are authorised to see the book list, add a review and the book list they have
+added.
 
 ## Design Choices
+
+### Logo
+I used a website called ![Looka.com](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which
+would be best for your design. 
 
 ### Colour Scheme
 
