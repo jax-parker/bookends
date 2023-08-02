@@ -49,7 +49,7 @@ A User Story template was created then Github issues were used to create User St
 ## Design Wireframes
 
 <details> <summary> Low fidelity mobile wireframes</summary>
-![Home Page](/static/readme/wireframe-mb-home.png)
+![Home Page](/workspace/bookends/static/readme/wireframe-mb-home.png)
 ![Book List Page](/static/readme/wireframe-mb-listview.png)
 ![Book Detail Page](/static/readme/wireframe-mb-detailview.png)
 ![Add A Review Page](/static/readme/wireframe-mb-addreview.png)
