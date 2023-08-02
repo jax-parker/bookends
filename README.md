@@ -74,6 +74,10 @@ A User Story template was created then Github issues were used to create User St
 <details> <summary>Database layout using Exclaidraw</summary>
 ![Database Schema](/workspace/bookends/readme/readme-imgs/database-schema.png)
 
+## Code Schema
+<details> <summary>Code workflow using Exclaidraw</summary>
+![Code Schema](/readme/readme-imgs/code-schema.png)
+
 ## Site Structure
 
 ## Design Choices
