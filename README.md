@@ -1,6 +1,6 @@
 # **Bookends - Project Portfolio 4**
 
-![Bookends](/static/readme/screenshots.png)
+![Bookends](/readme/readme-imgs/screenshots.png)
 
 Bookends is a website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre,
 description and review that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
@@ -49,9 +49,9 @@ A User Story template was created then Github issues were used to create User St
 ## Design Wireframes
 
 <details> <summary> Low fidelity mobile wireframes</summary>
-![Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/home-mbview_qiao1x.png)
-![Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-booklist_iifrmy.png)
-![Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/mbview-bookdetail_xkesu9.png)
+![Home Page](/readme/readme-imgs/wireframe-mb-home.png)
+![Book List Page](/readme/readme-imgs/wireframe-mb-listview.png)
+![Book Detail Page](/readme/readme-imgs/wireframe-mb-detailview.png)
 ![Add A Review Page](/static/readme/wireframe-mb-addreview.png)
 ![Your Books Page](/static/readme/wireframe-mb-yourbooks.png)
 ![Log In Page](/static/readme/wireframe-mb-signin.png)
