@@ -90,9 +90,10 @@ I used a website called ![Looka.com](https://looka.com/logo-maker) to design the
 would be best for your design. 
 
 ### Colour Scheme
-
+The colour scheme was based around the logo I chose. Looka.com then provided me with a colour palette to use within my project.
+![Colour Palette](readme/readme-imgs/color-palette.png)
 ### Typography
-
+I chose two fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
 
 ## Navigation
