@@ -97,12 +97,11 @@ I chose two fonts for this project, but both from the same family. Roboto Slab a
 # Features
 ## Navigation
 The site navigation is done through the navigation bar at the top of each page and does not change in style through out the users navigation of the webisite. 
-There is a search bar which will search through the list of books' titles, authors, description or any word in the review. If nothing is found a page to say there
-was no result is displayed and a button to take the user back to the book list. The nave bar shrinks to a Bootstrap toggle on smaller screens.
+There is a search bar which will search through the list of books' titles, authors, description or any word in the review. The nave bar shrinks to a Bootstrap toggle on smaller screens and opens to a dropdown when clicked on. Each link is active so will be underlined when the user is on the specific page.
 
-![Navbar](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997395/navbar_bqmo5s.png)
-![No Search Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997641/mbview-nosearch_hnb5mr.png)
-![No Search PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690995797/pcview-nosearch_en780f.png)
+![Navbar Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691004625/navbar-mobile_xiaw5o.png)
+![Navbar PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997395/navbar_bqmo5s.png)
+
 ## Home Screen
 The Home Screen is visible when the website is opened. Along with the navbar and the footer, the main section contains a message to explain what the webstie is about
 and displays 3 example book covers. These can be clicked on to see an example of the book detail but the user only has access to these three. They will need to sign up to have
@@ -124,18 +123,43 @@ It uses django-allauth and crispy forms to provide the styling and the settings 
 ![Login Page Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-signin_lhmrpu.png)
 ![Login Page PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/pcview-signin_wlllfu.png)
 
-
 ## Book List Screen
+When a user is logged in they can view all the book covers and and the first part of the description. To view the book in more detail in see the 
+review they simply click on the book.
 
+![Book List Screen Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-booklist_iifrmy.png)
+![Book List Screen PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/pcview-booklist_ewr6jv.png)
+
+## Book Detail Screen
+When a user is logged in they can click any book in the list to view the books title, posted by & date, author, book type, full description and review.
+If it is a book that they have posted they can edit the book listing or delete it. If they click delete a confirm deletion page will show with a button
+for them to confirm.
+
+![Book Detail Screen Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/mbview-bookdetail_xkesu9.png)
+![Book Detail Screen PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/pcview-bookdetails_b3csg4.png)
+![Delete Book Confirmation Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691003992/mbview-confdelete_dqi6ez.png)
+![Delete Book Confirmation PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691003992/pcview-confdelete_jsevhg.png)
 ## Add A Review Screen
+When a user is logged in they click on Add A Review and fill in the form to add thier own book and review it.
 
+![Add A Review Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-addreview_jkm7br.png)
+![Add A Review PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/pcview-addreview_hysper.png)
 ## Your Books Screen
+When a user is logged in they can view a list of all the books they have added to the website. They can then use the search bar to find their book listing.
 
+![Your Books Screen Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984229/mbview-yourbooks_gui3eb.png)
+![Your Books Screen PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984230/pcview-yourbooks_vgl6ow.png)
 ## Logout Screen
+The logout screen can be accessed from the navbar only when the user is logged in. The log out page has a confirmation button to check the user wishes to sign out.
+It uses django all-auth and crispy forms to provide the styling and the settings for user confirmation. 
 
-## Search Bar (found) screen
-
+![Sign Out Confirm Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690984228/mbview-signout_ildkwl.png)
+![Sign Out Confirm PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691004998/pcview-logout_u8bduj.png)
 ## Search Bar (not found) screen
+When a user types into the search bar but nothing is found a page to say there was no result is displayed and a button to take the user back to the book list. 
+
+![No Search Mobile](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690997641/mbview-nosearch_hnb5mr.png)
+![No Search PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690995797/pcview-nosearch_en780f.png)
 
 # Technologies Used
 
