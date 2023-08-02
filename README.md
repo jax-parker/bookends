@@ -4,7 +4,7 @@
 
 Bookends is a website that provides ideas for book clubs next best read. 
 
-You can view the live site here - <a href="https://.herokuapp.com/" target="_blank"> The happy reader </a>
+You can view the live site here - <a href="https://.herokuapp.com/" target="_blank"> Bookends </a>
 
 # User Experience (UX)
 
