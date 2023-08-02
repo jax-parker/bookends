@@ -1,8 +1,8 @@
 # **Bookends - Project Portfolio 4**
 
-![Bookends]()
+![Bookends](/static/readme/screenshots.png)
 
-Bookends is....
+Bookends is a website that provides ideas for book clubs next best read. 
 
 You can view the live site here - <a href="https://.herokuapp.com/" target="_blank"> The happy reader </a>
 
