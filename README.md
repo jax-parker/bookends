@@ -287,7 +287,15 @@ In addition to the other tests, I have conducted a manual check list for myself 
 | &check; | Searching for unfound word takes you sorry no books found page
 | &check; | No books found page displays message and return to books list button takes you to book list
 
-##Bugs
+## Bugs
+* I had made the mistake of pushing my repo to git hub before adding env.py to my gitignore file which stopped my env from 'greying' and becoming secret. Firstly I had to remove the cached version with git rm --cached env.py. I then had to delete the file and commit, then recreated it. I then had to generate new secrets as my old ones had been exposed in github.
+
+* I originally only copied over the sign up, log in and out files as I mistakenly thought this would be ok but this caused a 403 forbidden error in my code. Student Support explained that as allauth had a lot of things going on in the background it was advisable to copy all of the allauth files over if you're not using them. I did this and this resolved the issue.
+
+* Search that doesn't exist returned a TypeError message. So I added an {% empty %} in the books.html template and entered a message and button to return the user to the books list page.
+
+* After running the git rm --cached env.py as stated above, this caused issues in gitpod, bringing through old workspaces which were resolved by deleting old workspaces but then I could not push to git as it wanted me to pull first as I'd unknowingly completed work in old workspaces. I ran git pull and got an error saying I had divergent branches. I then ran git config pull.rebase false to pull data from my repo, commit and push.
+
 
 # Deployment
 
@@ -388,7 +396,7 @@ DEFAULT_FILE_STORAGE =
 
 ### 6. Final Deployment
 In the IDE: 
-* When development is complete change the debug setting to: `DEBUG = False` in `settings.py` 
+* When development is complete change the debug setting to: `DEBUG = False` in `env.py` 
 * In Heroku settings config vars change the DISABLE_COLLECTSTATIC value to 0
 * Because DEBUG must be switched to True for development and False for production it is recommended that only manual deployment is used in Heroku. 
 * To manually deploy click the button 'Deploy Branch'. The default 'main' option in the dropdown menu should be selected in both cases. When the app is deployed a message 'Your app was successfully deployed' will be shown. Click 'view' to see the deployed app in the browser.
@@ -413,7 +421,13 @@ A copy of the GitHub Repository can be made by forking the GitHub account. Chang
 [Back to top](<#contents>)
 
 # Credits
+[Looka.com](https://looka.com/)
+[Django Girls](https://tutorial.djangogirls.org/en/)
+[learndjango.com](https://learndjango.com/tutorials/)
+[PEP 8 Style Guide](https://peps.python.org/pep-0008/)
+[Setting up a global .gitignore file](https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/)
 
 [Back to top](<#contents>)
 
 # Acknowledgements
+This website was designed and developed in conjuction with the Full Stack Software Developer Diploma Course at Code Institute. Thank you to my mentor Ronan McClelland for his guidance and support throughout my project and to Student Support for their patience and knowledge.
