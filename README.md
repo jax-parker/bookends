@@ -287,12 +287,6 @@ In addition to the other tests, I have conducted a manual check list for myself 
 | &check; | Searching for unfound word takes you sorry no books found page
 | &check; | No books found page displays message and return to books list button takes you to book list
 
-
-
-
-
-
-
 ##Bugs
 
 # Deployment
