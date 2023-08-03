@@ -209,6 +209,88 @@ In addition to the other tests, I have conducted a manual check list for myself 
 | Status | **Navigation Bar - User Logged Out**
 |:-------:|:--------|
 | &check; | Clicking the navbar logo loads the home page
+| &check; | The navbar shows home, signup and login tabs
+| &check; | Clicking the home tab on the navbar loads the home page
+| &check; | Clicking the sign up tab on the navbar loads the signup page
+| &check; | Clicking the login tab on the navbar loads the login page
+| &check; | Clicking the home tab on the navbar loads the home page
+
+| Status | **Navigation Bar - User Logged In**
+|:-------:|:--------|
+| &check; | The navbar shows the home, book list, add a review, your books and log out tabs
+| &check; | Clicking the home tab loads the home page
+| &check; | Clicking the book list tab loads the book list page
+| &check; | Clicking the add a review tab loads the add a review page
+| &check; | Clicking the your books tab loads the your books page
+| &check; | Clicking the logout tab loads the logout page
+
+| Status | **Footer - User Logged In/out**
+|:-------:|:--------|
+| &check; | Clicking the LinkedIn icon opens its home page in a new window
+| &check; | Clicking the Instagram icon opens its home page in a new window
+| &check; | Clicking the Twitter icon opens its home page in a new window
+| &check; | Clicking the YouTube icon opens its home page in a new window
+| &check; | Clicking the Facebook icon opens its home page in a new window
+
+| Status | **Home Page - User Logged In/out**
+|:-------:|:--------|
+| &check; | Info message shows with 3 books in main section
+| &check; | Clicking on any of the 3 books takes you to the book detail
+
+| Status | **Book List Page - User Logged In**
+|:-------:|:--------|
+| &check; | List of books images appear with title and start of description below each
+| &check; | Title and description change colour and pointer changes to hand on hover
+| &check; | Clicking on any book takes you to the book detail
+
+| Status | **Book Detail Page - User Logged In**
+|:-------:|:--------|
+| &check; | Book cover appears on left
+| &check; | Title, user, post date and time, author, book type, description and review to right
+| &check; | If book opened belongs to user the edit and delete buttons appear
+| &check; | Clicking on edit button takes user to edit a review page, allows them to edit and finish editing button returns to book list page
+| &check; | Clicking on delete takes user to confirm book deletion page with confirm button removing book from list returning to book list page
+
+| Status | **Add A Review/Book Page - User Logged In**
+|:-------:|:--------|
+| &check; | Form appears centrally with entries book, author, description, review, image, image description, genre inputs
+| &check; | Book review allows user to use formatting for their review
+| &check; | Genre dropdown box shows all genres created in admin
+| &check; | Submit button adds book to book list and returns user to book list page showing new book at front
+
+| Status | **Your Books Page - User Logged In**
+|:-------:|:--------|
+| &check; | Your Books title and list of books added by that user. Different users were created to test
+
+| Status | **Log In Page**
+|:-------:|:--------|
+| &check; | Message to check if user has a log in - sign up link takes user to sign up page
+| &check; | Form appears with username and password input boxes and sign in button 
+| &check; | Sign in button take user to book list page
+
+| Status | **Sign Up Page**
+|:-------:|:--------|
+| &check; | Message to check if user has an account - log in link takes user to log in page
+| &check; | Form appears with username, email(optional) and password input boxes and sign up button 
+| &check; | Sign up button take user to home page
+
+| Status | **Log Out Page**
+|:-------:|:--------|
+| &check; | Confirmation of log out appears and sign out button signs user out and returns to home page
+
+| Status | **Search Bar**
+|:-------:|:--------|
+| &check; | Searching for book title returns book
+| &check; | Searching for author returns book
+| &check; | Searching for book title returns book
+| &check; | Searching for description word returns book(s)
+| &check; | Searching for unfound word takes you sorry no books found page
+| &check; | No books found page displays message and return to books list button takes you to book list
+
+
+
+
+
 
 
 ##Bugs
