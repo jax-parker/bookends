@@ -86,12 +86,12 @@ added.
 ## Design Choices
 
 ### Logo
-I used a website called [Looka.com] (https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which
+I used a website called ![Looka.com](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which
 would be best for your design. 
 
 ### Colour Scheme
 The colour scheme was based around the logo I chose. Looka.com then provided me with a colour palette to use within my project.
-[Colour Palette](readme/readme-imgs/color-palette.png)
+![Colour Palette](readme/readme-imgs/color-palette.png)
 ### Typography
 I chose two fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
@@ -183,12 +183,10 @@ The footer contains social icons which could link to the websites social media s
 [Back to top](<#contents>)
 
 # Testing
-
 ## Validation
-
 ### Html Validation
 Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/).
-Errors:
+Errors: Extra section closing tag in index.html - rectified
 
 ### CSS Validation
 
