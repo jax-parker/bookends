@@ -48,34 +48,34 @@ A User Story template was created then Github issues were used to create User St
 ## Design Wireframes
 
 ###Low fidelity mobile wireframes
-[Home Page](/readme/readme-imgs/wireframe-mb-home.png)
-[Book List Page](/readme/readme-imgs/wireframe-mb-listview.png)
-[Book Detail Page](/readme/readme-imgs/wireframe-mb-detailview.png)
-[Add A Review Page](/static/readme/wireframe-mb-addreview.png)
-[Your Books Page](/static/readme/wireframe-mb-yourbooks.png)
-[Log In Page](/static/readme/wireframe-mb-signin.png)
-[Sign Up Page](/static/readme/wireframe-mb-signup.png)
-[Log Out Page](/static/readme/wireframe-mb-signout.png)
-[Search Not Found Page]()
+* [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-home_honamm.png)
+* [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-listview_oiec9x.png)
+* [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-mb-detailview_nifvye.png)
+* [Add A Review Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-mb-addreview_j87s9j.png)
+* [Your Books Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-yourbooks_bk5gyq.png)
+* [Log In Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signin_jhfkne.png)
+* [Sign Up Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signup_mgs3f8.png)
+* [Log Out Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signout_dgvhal.png)
+* [Search Not Found Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-nonefound_nzvrpw.png)
 
 ###Low fidelity pc wireframes
-[Home Page](/static/readme/wireframe-pc-home.png)
-[Book List Page](/static/readme/wireframe-pc-listview.png)
-[Book Detail Page](/static/readme/wireframe-pc-detailview.png)
-[Add A Review Page](/static/readme/wireframe-pc-addreview.png)
-[Your Books Page](/static/readme/wireframe-pc-yourbooks.png)
-[Log In Page](/static/readme/wireframe-pc-signin.png)
-[Sign Up Page](/static/readme/wireframe-pc-signup.png)
-![Log Out Page](/__pycache__/static/readme/wireframe-pc-signout.png)
-[Search Not Found Page]()
+* [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-home_gmbzap.png)
+* [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-listview_qcwfjz.png)
+* [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-detailview_zfobqz.png)
+* [Add A Review Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-addreview_tahjxq.png)
+* [Your Books Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-yourbooks_omj3hq.png)
+* [Log In Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-signin_dpdqcx.png)
+* [Sign Up Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-signup_xyrdiy.png)
+* [Log Out Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-signout_ni0dus.png)
+* [Search Not Found Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-nonefound_aav7ff.png)
 
 ## Entity Relationship Diagram
 #### Database layout using Exclaidraw
-![Database Schema](/workspace/bookends/readme/readme-imgs/database-schema.png)
+![Database Schema](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691077013/database-schema_lezbhx.png)
 
 ## Code Schema
 #### Code workflow using Exclaidraw
-![Code Schema](/readme/readme-imgs/code-schema.png)
+![Code Schema](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691077024/code-schema_ppijwv.png)
 
 ## Site Structure
 From the home page, Bookends website has three pages visible in the navigation bar plus the search bar; Home, Sign Up and Login. Once signed in the nav bar also
@@ -89,7 +89,7 @@ I used a website called ![Looka](https://looka.com/logo-maker) to design the log
 
 ### Colour Scheme
 The colour scheme was based around the logo I chose. Looka.com then provided me with a colour palette to use within my project.
-![Colour Palette](readme/readme-imgs/color-palette.png)
+![Colour Palette](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691077103/color-palette_gdjauy.png)
 ### Typography
 I chose two fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
