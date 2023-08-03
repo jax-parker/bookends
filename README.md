@@ -48,26 +48,26 @@ A User Story template was created then Github issues were used to create User St
 ## Design Wireframes
 
 ###Low fidelity mobile wireframes
-![Home Page](/readme/readme-imgs/wireframe-mb-home.png)
-![Book List Page](/readme/readme-imgs/wireframe-mb-listview.png)
-![Book Detail Page](/readme/readme-imgs/wireframe-mb-detailview.png)
-![Add A Review Page](/static/readme/wireframe-mb-addreview.png)
-![Your Books Page](/static/readme/wireframe-mb-yourbooks.png)
-![Log In Page](/static/readme/wireframe-mb-signin.png)
-![Sign Up Page](/static/readme/wireframe-mb-signup.png)
-![Log Out Page](/static/readme/wireframe-mb-signout.png)
-![Search Not Found Page]()
+[Home Page](/readme/readme-imgs/wireframe-mb-home.png)
+[Book List Page](/readme/readme-imgs/wireframe-mb-listview.png)
+[Book Detail Page](/readme/readme-imgs/wireframe-mb-detailview.png)
+[Add A Review Page](/static/readme/wireframe-mb-addreview.png)
+[Your Books Page](/static/readme/wireframe-mb-yourbooks.png)
+[Log In Page](/static/readme/wireframe-mb-signin.png)
+[Sign Up Page](/static/readme/wireframe-mb-signup.png)
+[Log Out Page](/static/readme/wireframe-mb-signout.png)
+[Search Not Found Page]()
 
 ###Low fidelity pc wireframes
-![Home Page](/static/readme/wireframe-pc-home.png)
-![Book List Page](/static/readme/wireframe-pc-listview.png)
-![Book Detail Page](/static/readme/wireframe-pc-detailview.png)
-![Add A Review Page](/static/readme/wireframe-pc-addreview.png)
-![Your Books Page](/static/readme/wireframe-pc-yourbooks.png)
-![Log In Page](/static/readme/wireframe-pc-signin.png)
-![Sign Up Page](/static/readme/wireframe-pc-signup.png)
+[Home Page](/static/readme/wireframe-pc-home.png)
+[Book List Page](/static/readme/wireframe-pc-listview.png)
+[Book Detail Page](/static/readme/wireframe-pc-detailview.png)
+[Add A Review Page](/static/readme/wireframe-pc-addreview.png)
+[Your Books Page](/static/readme/wireframe-pc-yourbooks.png)
+[Log In Page](/static/readme/wireframe-pc-signin.png)
+[Sign Up Page](/static/readme/wireframe-pc-signup.png)
 ![Log Out Page](/__pycache__/static/readme/wireframe-pc-signout.png)
-![Search Not Found Page]()
+[Search Not Found Page]()
 
 ## Entity Relationship Diagram
 #### Database layout using Exclaidraw
