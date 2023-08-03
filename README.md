@@ -2,8 +2,7 @@
 
 [Bookends](/readme/readme-imgs/screenshots.png)
 
-Bookends is a website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre,
-description and review that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
+Bookends is a fictitious website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre, description and reviews that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
 
 You can view the live site here - <a href="https://django-bookends.herokuapp.com/" target="_blank">Bookends </a>
 
@@ -48,7 +47,7 @@ A User Story template was created then Github issues were used to create User St
 
 ## Design Wireframes
 
-<details> <summary> Low fidelity mobile wireframes</summary>
+###Low fidelity mobile wireframes
 ![Home Page](/readme/readme-imgs/wireframe-mb-home.png)
 ![Book List Page](/readme/readme-imgs/wireframe-mb-listview.png)
 ![Book Detail Page](/readme/readme-imgs/wireframe-mb-detailview.png)
@@ -59,7 +58,7 @@ A User Story template was created then Github issues were used to create User St
 ![Log Out Page](/static/readme/wireframe-mb-signout.png)
 ![Search Not Found Page]()
 
-<details> <summary> Low fidelity pc wireframes</summary>
+###Low fidelity pc wireframes
 ![Home Page](/static/readme/wireframe-pc-home.png)
 ![Book List Page](/static/readme/wireframe-pc-listview.png)
 ![Book Detail Page](/static/readme/wireframe-pc-detailview.png)
@@ -71,11 +70,11 @@ A User Story template was created then Github issues were used to create User St
 ![Search Not Found Page]()
 
 ## Entity Relationship Diagram
-<details> <summary>Database layout using Exclaidraw</summary>
+#### Database layout using Exclaidraw
 ![Database Schema](/workspace/bookends/readme/readme-imgs/database-schema.png)
 
 ## Code Schema
-<details> <summary>Code workflow using Exclaidraw</summary>
+#### Code workflow using Exclaidraw
 ![Code Schema](/readme/readme-imgs/code-schema.png)
 
 ## Site Structure
@@ -86,8 +85,7 @@ added.
 ## Design Choices
 
 ### Logo
-I used a website called ![Looka.com](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which
-would be best for your design. 
+I used a website called ![Looka](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which would be best for your design. 
 
 ### Colour Scheme
 The colour scheme was based around the logo I chose. Looka.com then provided me with a colour palette to use within my project.
