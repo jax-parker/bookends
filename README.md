@@ -1,6 +1,6 @@
 # **Bookends - Project Portfolio 4**
 
-[Bookends](/readme/readme-imgs/screenshots.png)
+[Bookends](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691077259/screenshots_xjqlvb.png)
 
 Bookends is a fictitious website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre, description and reviews that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
 
