@@ -188,6 +188,7 @@ The footer contains social icons which link to the websites social media sites.
 ## Validation
 ### Html Validation
 Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/).
+On website page, right click, view page source, copy code and paste into validator. Repeat for each page.
 Errors: Extra section closing tag in index.html - rectified
 
 ### CSS Validation
@@ -290,7 +291,7 @@ In addition to the other tests, I have conducted a manual check list for myself 
 | &check; | No books found page displays message and return to books list button takes you to book list
 
 ## Bugs
-* I had made the mistake of pushing my repo to git hub before adding env.py to my gitignore file which stopped my env from 'greying' and becoming secret. Firstly I had to remove the cached version with git rm --cached env.py. I then had to delete the file and commit, then recreated it. I then had to generate new secrets as my old ones had been exposed in github.
+* I had made the mistake of pushing my repo to git hub before adding env.py to my gitignore file which stopped my env from 'greying' and becoming secret. Firstly I had to remove the cached version with git rm --cached env.py. I then had to delete the file and commit, then recreated it. I then had to generate new secrets as my old ones had been exposed in github, recreate a superuser and add books back in to user accounts.
 
 * I originally only copied over the sign up, log in and out files as I mistakenly thought this would be ok but this caused a 403 forbidden error in my code. Student Support explained that as allauth had a lot of things going on in the background it was advisable to copy all of the allauth files over if you're not using them. I did this and this resolved the issue.
 
