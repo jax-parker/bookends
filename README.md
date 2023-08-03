@@ -47,7 +47,7 @@ A User Story template was created then Github issues were used to create User St
 
 ## Design Wireframes
 
-###Low fidelity mobile wireframes
+### Low fidelity mobile wireframes
 * [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-home_honamm.png)
 * [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-listview_oiec9x.png)
 * [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-mb-detailview_nifvye.png)
@@ -58,7 +58,7 @@ A User Story template was created then Github issues were used to create User St
 * [Log Out Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signout_dgvhal.png)
 * [Search Not Found Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-nonefound_nzvrpw.png)
 
-###Low fidelity pc wireframes
+### Low fidelity pc wireframes
 * [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-home_gmbzap.png)
 * [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-listview_qcwfjz.png)
 * [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-detailview_zfobqz.png)
@@ -78,20 +78,20 @@ A User Story template was created then Github issues were used to create User St
 ![Code Schema](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691077024/code-schema_ppijwv.png)
 
 ## Site Structure
-From the home page, Bookends website has three pages visible in the navigation bar plus the search bar; Home, Sign Up and Login. Once signed in the nav bar also
+From the home page, Bookends website has three pages visible in the navigation bar plus the search bar; Home, Sign Up and Login. Once signed in the nav bar then
 has Book List, Add A Review, Your Books and Logout. This ensures that only users that have signed in are authorised to see the book list, add a review and the book list they have
 added.
 
 ## Design Choices
 
 ### Logo
-I used a website called ![Looka](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which would be best for your design. 
+I used a website called [Looka](https://looka.com/logo-maker) to design the logo. It gives you a choice of colours, fonts and icons that you can choose which would be best for your design. 
 
 ### Colour Scheme
 The colour scheme was based around the logo I chose. Looka.com then provided me with a colour palette to use within my project.
 ![Colour Palette](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691077103/color-palette_gdjauy.png)
 ### Typography
-I chose two fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
+I chose two fonts from Google Fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
 ## Navigation
 The site navigation is done through the navigation bar at the top of each page and does not change in style through out the users navigation of the webisite. 
@@ -203,18 +203,22 @@ Errors: None
 
 Python code that I have written was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
 No errors were found:
-[main/settings.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-settings.py_jodfa5.png)
-[main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
-[home/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-views.py_cgffnk.png)
-[home/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074312/test-home-urls.py_qv8hww.png)
-[books/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-views.py_zjs9bi.png)
-[books/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-urls.py_yevtdr.png)
-[books/models.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-models.py_xurycf.png)
-[books/forms.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-forms.py_ijc43m.png)
-[books/admin.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-admin.py_wtflbb.png)
+* [main/settings.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-settings.py_jodfa5.png)
+* [main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
+* [main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
+* [home/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-views.py_cgffnk.png)
+* [home/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074312/test-home-urls.py_qv8hww.png)
+* [books/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-views.py_zjs9bi.png)
+* [books/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-urls.py_yevtdr.png)
+* [books/models.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-models.py_xurycf.png)
+* [books/forms.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-forms.py_ijc43m.png)
+* [books/admin.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-admin.py_wtflbb.png)
 
 ### Lighthouse Testing
-
+* [Home Page]()
+* [Book List Page]()
+* [Book Detail Page]()
+* [Home Page]()
 
 ## Manual Testing
 
@@ -304,7 +308,7 @@ In addition to the other tests, I have conducted a manual check list for myself 
 ## Bugs
 * I had made the mistake of pushing my repo to git hub before adding env.py to my gitignore file which stopped my env from 'greying' and becoming secret. Firstly I had to remove the cached version with git rm --cached env.py. I then had to delete the file and commit, then recreated it. I then had to generate new secrets as my old ones had been exposed in github, recreate a superuser and add books back in to user accounts.
 
-* I originally only copied over the sign up, log in and out files as I mistakenly thought this would be ok but this caused a 403 forbidden error in my code. Student Support explained that as allauth had a lot of things going on in the background it was advisable to copy all of the allauth files over if you're not using them. I did this and this resolved the issue.
+* I originally only copied over the sign up, log in and out AllAuth files as I mistakenly thought this would be ok but this caused a 403 forbidden error in my code. Student Support explained that as allauth had a lot of things going on in the background it was advisable to copy all of the allauth files over even if you're not using them. I did this and this resolved the issue.
 
 * Search that doesn't exist returned a TypeError message. So I added an {% empty %} in the books.html template and entered a message and button to return the user to the books list page.
 

@@ -49,14 +49,6 @@ main {
     width: auto;
 }
 
-button .btn {
-    background-color: var(--off_white);
-}
-
-button .btn:hover {
-   color: var(--light_teal);
-}
-
 footer {
     flex-shrink: 0;
     background-color: var(--blue);
@@ -200,6 +192,12 @@ a .img-container:hover {
     top: 50%;
     left: 50%;
     background-color: var(--off_white);
+}
+.user {
+    border: 1px solid var(--blue);
+    background-color: var(--off_white) ;
+    border-radius: 5px;
+    box-shadow: var(--sm_box_shadow);
 }
 
 /* Media */

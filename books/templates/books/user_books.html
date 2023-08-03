@@ -3,21 +3,22 @@
 {% block title %}My Books{% endblock %}
 
 {% block content %}
-
-<div class="container d-flex align-items-center justify-content-center pb-2 pt-5">
-    <h1>Your Books</h1>
-</div>
-<div class="container d-flex align-items-center justify-content-center">
-    {% if user_books %}
-    <ul>
-        {% for book in user_books %}
-        <li>{{ book.title }} by {{ book.author }}</li>
-        {% endfor %}
-    </ul>
-    {% else %}
-    <p>No books added yet.</p>
-    <a href="{% url 'book_detail' %}" class="btn btn-secondary w-25">Return To Book List</a>
-    {% endif %}
+<div class="form">
+    <div class="container d-flex align-items-center justify-content-center pb-2 pt-3">
+        <h1>Your Books</h1>
+    </div>
+    <div class="container d-flex align-items-center justify-content-center">
+        {% if user_books %}
+        <ul>
+            {% for book in user_books %}
+            <li>{{ book.title }} by {{ book.author }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No books added yet.</p>
+        <a href="{% url 'book_detail' %}" class="btn btn-secondary w-25">Return To Book List</a>
+        {% endif %}
+    </div>
 </div>
 
 
