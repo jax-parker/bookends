@@ -4,7 +4,7 @@
     /**Fonts**/
     --title: 'Roboto Slab', sans;
     --main-font: 'Roboto', sans;
-    
+
     /*Colours*/
     --off_white: #e6e6e6;
     --blue: #0c056d;
@@ -18,7 +18,8 @@
 
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -28,7 +29,12 @@ body {
     font-family: var(--main-font);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--title);
 }
 
@@ -36,15 +42,20 @@ main {
     flex: 1 0 auto;
     background-color: var(--blue-hue);
 }
+
 .logo {
     border: 1px solid var(--off_white);
     border-radius: 5px;
     width: auto;
 }
 
-.btn.btn-outline-secondary{
-    background-color: var(--white);
+button .btn {
+    background-color: var(--off_white);
 }
+button .btn:hover {
+   color: var(--light_teal);
+}
+
 footer {
     flex-shrink: 0;
     background-color: var(--blue);
@@ -63,13 +74,12 @@ footer {
 /* Forms */
 
 .form {
-    width:100%;
+    width: 100%;
     box-shadow: var(--sm_box_shadow);
     background-color: var(--off_white);
     margin: 3% auto;
     border-radius: 5px;
     border-color: var(--blue);
-    b
 }
 
 /* Header */
@@ -84,12 +94,12 @@ a.nav-link {
 }
 
 .navbar-nav {
-    color:var(--white);
+    color: var(--white);
 }
 
 .navbar-nav .nav-link.active {
-    color:var(--white);
-    
+    color: var(--white);
+
 }
 
 img.logo {
@@ -105,7 +115,7 @@ img.logo {
 /* Books */
 
 .card {
-    height:95%;
+    height: 95%;
     margin-top: 1rem;
 }
 
@@ -131,7 +141,9 @@ img.logo {
     flex-direction: column;
 }
 
-.description, .comments, .book-detail {
+.description,
+.comments,
+.book-detail {
     width: 100%;
 }
 
@@ -143,14 +155,14 @@ img.logo {
 
 .book-pic {
     width: 100%;
-    height:auto;
+    height: auto;
 }
 
 .book-cont {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-     
+
 }
 
 a.img-container {
@@ -179,21 +191,21 @@ a .img-container:hover {
     background-color: #00000030;
     position: absolute;
     top: 50%;
-    left:50%
-    
+    left: 50%
 }
 
 .user-books {
     width: 100%;
     top: 50%;
-    left:50%
+    left: 50%;
     background-color: var(--off_white);
 }
+
 /* Media */
 
 @media screen and (min-width: 62.5em) {
     .book-img {
-        width:40%;
+        width: 40%;
         margin: 0 auto;
     }
 
@@ -205,9 +217,10 @@ a .img-container:hover {
     .book-container {
         flex-direction: row;
     }
+
     .book-info {
         flex-direction: row;
-        border:1px solid var(--blue);
+        border: 1px solid var(--blue);
     }
 }
 
@@ -226,4 +239,3 @@ a .img-container:hover {
         width: 29%;
     }
 }
-

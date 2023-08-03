@@ -28,7 +28,8 @@ BOOK_TYPES = (
 class Books(models.Model):
     """Model to create and manage books"""
 
-    user = models.ForeignKey(User, related_name="book_owner", on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name="book_owner",
+                                                on_delete=models.CASCADE)
     title = models.CharField(max_length=300, null=False, blank=False)
     author = models.CharField(max_length=300, null=True, blank=True)
     description = models.CharField(max_length=500, null=False, blank=False)
@@ -42,7 +43,8 @@ class Books(models.Model):
         null=False,
     )
     image_alt = models.CharField(max_length=100, null=False, blank=False)
-    book_type = models.CharField(max_length=50, choices=BOOK_TYPES, default="mystery")
+    book_type = models.CharField(max_length=50,
+                                 choices=BOOK_TYPES, default="mystery")
     posted_date = models.DateTimeField(auto_now=True)
     slug = models.SlugField(blank=True, null=True)
 

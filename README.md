@@ -181,6 +181,7 @@ The footer contains social icons which link to the websites social media sites.
 * Looka.com - Used to create the Bookends Logo
 * Black - intalled black in terminal and ran to ensure PEP8 compliant in files
 * Breakpoint - used breakpoint() to step through code in terminal and check each step is working to help debug
+* URL Encode Online - to encode my url to add to the validation checkers to add links to testing section
 
 [Back to top](<#contents>)
 
@@ -189,18 +190,30 @@ The footer contains social icons which link to the websites social media sites.
 ### Html Validation
 Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/).
 On website page, right click, view page source, copy code and paste into validator. Repeat for each page.
-Errors: Extra section closing tag in index.html - rectified
+Results 
+* [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io)
+* [Book List](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io%2Fbooks%2F)
+* [Book Detail](https://validator.w3.org/nu/?doc=https://8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io/books/9/)
 
 ### CSS Validation
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
-Errors:
-
+![CSS Validator Check](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691070801/css-validator_q9mxyn.png)
+Errors: None
 
 ### Python Validation
 
-Python code was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
-Errors:
+Python code that I have written was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
+No errors were found:
+[main/settings.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-settings.py_jodfa5.png)
+[main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
+[home/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-views.py_cgffnk.png)
+[home/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074312/test-home-urls.py_qv8hww.png)
+[books/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-views.py_zjs9bi.png)
+[books/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-urls.py_yevtdr.png)
+[books/models.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-models.py_xurycf.png)
+[books/forms.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-forms.py_ijc43m.png)
+[books/admin.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-admin.py_wtflbb.png)
 
 ### Lighthouse Testing
 

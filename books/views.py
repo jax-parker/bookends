@@ -102,3 +102,4 @@ def books(request):
         user_books = Books.objects.none()
 
     return render(request, "books/user_books.html", {"user_books": user_books})
+    
