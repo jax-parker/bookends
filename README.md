@@ -162,7 +162,7 @@ When a user types into the search bar but nothing is found a page to say there w
 ![No Search PC](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690995797/pcview-nosearch_en780f.png)
 
 ## Footer
-The footer contains social icons which could link to the websites social media sites. They have not been linked for this project
+The footer contains social icons which link to the websites social media sites.
 
 ![Footer](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691005624/Footer_jsruj9.png)
 
