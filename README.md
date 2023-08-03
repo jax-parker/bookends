@@ -177,8 +177,10 @@ The footer contains social icons which link to the websites social media sites.
 * Bootstrap5 -  used for providing layouts and styling the html in the templates
 * Balsamiq - Used to create wireframes for the project
 * Cloudinary - Used to host Static files for the site
-* Excalidraw- Used to create the Entity Relationship Diagram and Code Schema
-* Looka.com- Used to create the Bookends Logo
+* Excalidraw - Used to create the Entity Relationship Diagram and Code Schema
+* Looka.com - Used to create the Bookends Logo
+* Black - intalled black in terminal and ran to ensure PEP8 compliant in files
+* Breakpoint - used breakpoint() to step through code in terminal and check each step is working to help debug
 
 [Back to top](<#contents>)
 
@@ -421,11 +423,12 @@ A copy of the GitHub Repository can be made by forking the GitHub account. Chang
 [Back to top](<#contents>)
 
 # Credits
-[Looka.com](https://looka.com/)
-[Django Girls](https://tutorial.djangogirls.org/en/)
-[learndjango.com](https://learndjango.com/tutorials/)
-[PEP 8 Style Guide](https://peps.python.org/pep-0008/)
-[Setting up a global .gitignore file](https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/)
+* [Looka.com](https://looka.com/)
+* [Django Girls](https://tutorial.djangogirls.org/en/)
+* [learndjango.com](https://learndjango.com/tutorials/)
+* [PEP 8 Style Guide](https://peps.python.org/pep-0008/)
+* [Setting up a global .gitignore file](https://sebastiandedeyne.com/setting-up-a-global-gitignore-file/)
+* [Uxwing for social icons](https://uxwing.com/)
 
 [Back to top](<#contents>)
 

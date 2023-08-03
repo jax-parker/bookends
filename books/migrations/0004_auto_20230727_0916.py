@@ -4,19 +4,22 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('books', '0003_books_author'),
+        ("books", "0003_books_author"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='books',
-            options={'ordering': ['-posted_date'], 'verbose_name': 'book', 'verbose_name_plural': 'books'},
+            name="books",
+            options={
+                "ordering": ["-posted_date"],
+                "verbose_name": "book",
+                "verbose_name_plural": "books",
+            },
         ),
         migrations.AddField(
-            model_name='books',
-            name='slug',
+            model_name="books",
+            name="slug",
             field=models.SlugField(blank=True, null=True),
         ),
     ]

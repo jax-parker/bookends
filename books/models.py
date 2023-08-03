@@ -53,8 +53,8 @@ class Books(models.Model):
 
     class Meta:
         ordering = ["-posted_date"]
-        verbose_name = 'book'
-        verbose_name_plural = 'books'
+        verbose_name = "book"
+        verbose_name_plural = "books"
 
     def __str__(self):
         return str(self.title)

@@ -1,5 +1,10 @@
 from django.views.generic import (
-    CreateView, ListView, DetailView, DeleteView, UpdateView)
+    CreateView,
+    ListView,
+    DetailView,
+    DeleteView,
+    UpdateView,
+)
 from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 from django.db.models import Q
 from .models import Books
@@ -11,30 +16,31 @@ class BooksView(ListView):
     """
     View all books
     """
+
     template_name = "books/books.html"
     model = Books
     context_object_name = "books"
 
     def get_queryset(self, **kwargs):
-        query = self.request.GET.get('q')
-    
+        query = self.request.GET.get("q")
+
         if query:
             books = self.model.objects.filter(
-                Q(title__icontains=query) |
-                Q(author__icontains=query) |
-                Q(description__icontains=query) |
-                Q(book_type__icontains=query)
+                Q(title__icontains=query)
+                | Q(author__icontains=query)
+                | Q(description__icontains=query)
+                | Q(book_type__icontains=query)
             )
         else:
             books = self.model.objects.all()
         return books
 
 
-
 class BookDetail(DetailView):
     """
     View to see a book in detail
     """
+
     template_name = "books/book_detail.html"
     model = Books
     context_object_name = "book"
@@ -52,21 +58,24 @@ class AddBook(LoginRequiredMixin, CreateView):
         form.instance.user = self.request.user
         return super(AddBook, self).form_valid(form)
 
+
 class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
-    """ Edit a review """
+    """Edit a review"""
+
     template_name = "books/edit_review.html"
     model = Books
-    form_class= BookForm
-    success_url = '/books'
+    form_class = BookForm
+    success_url = "/books"
 
     def test_func(self):
         return self.request.user == self.get_object().user
 
 
 class ConfirmDelete(LoginRequiredMixin, UserPassesTestMixin, ListView):
-    """ Delete a book"""
+    """Delete a book"""
+
     model = Books
-    success_url = '/books/'
+    success_url = "/books/"
     template_name = "books/book_confirm_delete.html"
 
     def test_func(self):
@@ -74,15 +83,17 @@ class ConfirmDelete(LoginRequiredMixin, UserPassesTestMixin, ListView):
         return self.request.user == book.user
 
     def get_object(self, queryset=None):
-        pk = self.kwargs.get('pk')
+        pk = self.kwargs.get("pk")
         return self.model.objects.get(pk=pk)
+
 
 class DeleteBook(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Books
-    success_url = '/books/'
+    success_url = "/books/"
 
     def test_func(self):
         return self.request.user == self.get_object().user
+
 
 def books(request):
     if request.user.is_authenticated:
@@ -90,5 +101,4 @@ def books(request):
     else:
         user_books = Books.objects.none()
 
-    return render(request, 'books/user_books.html', {'user_books': user_books})
-
+    return render(request, "books/user_books.html", {"user_books": user_books})
