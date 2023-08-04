@@ -1,6 +1,6 @@
 # **Bookends - Project Portfolio 4**
 
-[Bookends](https://res.cloudinary.com/dlamq4hsk/image/upload/v1691133901/ji4vrjelzri2mmvrycdo.png)
+[Bookends](https://res.cloudinary.com/dlamq4hsk/image/upload/v1691133817/Bookends/ur3tttjewk7xttmcoadp.png)
 
 Bookends is a fictitious website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre, description and reviews that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
 
@@ -18,7 +18,7 @@ You can view the live site here - <a href="https://django-bookends.herokuapp.com
 The Agile Methodology was used to plan this project. This was implemented through Github and the Project Board, which can be seen here -
 
 Through the use of the Kanban board in the projects view in Github, the project was divided into a few different sections:
-[Kanban board github](https://res.cloudinary.com/dwvsz0fug/image/upload/v1690981983/kanban-board_vr0jps.png)
+[Kanban board github](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/a09ynmh81llpuojwpvds)
 
 A User Story template was created then Github issues were used to create User Stories for the project.  
 
