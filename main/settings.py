@@ -34,7 +34,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['django-bookends.herokuapp.com',
                  '8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io',
-                 'https://bookends-django-fe34319f080e.herokuapp.com']
+                 'bookends-django-fe34319f080e.herokuapp.com']
 
 # Application definition
 
