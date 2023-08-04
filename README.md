@@ -1,5 +1,5 @@
 # **Bookends - Project Portfolio 4**
-
+#Contents
 [Bookends](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/gpthbx2oqnladiwxfmeb)
 
 Bookends is a fictitious website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre, description and reviews that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
@@ -187,19 +187,17 @@ The footer contains social icons which link to the websites social media sites.
 ## Validation
 ### Html Validation
 Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/).
-On the website page, right click, view page source, copy code and paste into validator url after the =. Repeat for each page.
+On the website page, right click, view page source, copy code and paste into validator url after the =. Repeat for each page. You need to have the server running to view these pages. 
 Results 
 * [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io)
 * [Book List](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io%2Fbooks%2F)
-* [Book Detail](https://validator.w3.org/nu/?doc=https://8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io/books/9/)
+* [Book Detail](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io%2Fbooks%2F17%2F)
 The source code threw in an extra <p> tag which was not in my orignal code. I asked on Slack and got the advice to remove the tag from my code and just leave the {}. This worked and cleared the error.
 
-
-Asked on Slack how to clear the errors.
 ### CSS Validation
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
-![CSS Validator Check](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691070801/css-validator_q9mxyn.png)
+![CSS Validator Check](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/cydwtkzzwrdhq2el8oxo)
 Errors: None
 
 ### Python Validation
@@ -207,22 +205,21 @@ Errors: None
 Python code that I have written was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
 Extra white space and more than two line errors were found and corrected.
 
-* [main/settings.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-settings.py_jodfa5.png)
-* [main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
-* [main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
-* [home/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-views.py_cgffnk.png)
-* [home/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074312/test-home-urls.py_qv8hww.png)
-* [books/views.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-views.py_zjs9bi.png)
-* [books/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-urls.py_yevtdr.png)
-* [books/models.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-models.py_xurycf.png)
-* [books/forms.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-forms.py_ijc43m.png)
-* [books/admin.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-admin.py_wtflbb.png)
+* [main/settings.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/ej9qopnyf7avuvmobgxh)
+* [main/urls.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/y0dpypxxmubt5qel1tle)
+* [home/views.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/tlgaery7bbdfcgach9rv)
+* [home/urls.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/f2nvq28ngjzn5ncu9vik)
+* [books/views.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/ku1myzajptl9pegsim0u)
+* [books/urls.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/dubstnff29crc8kmytxr)
+* [books/models.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/mvuvcjufuu7fdyw7y70p)
+* [books/forms.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/jtjzm6inahqfhvdgiaw6)
+* [books/admin.py](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/padusvuucmnazx0cxyow)
 
 ### Lighthouse Testing
-* [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-home_eegadi.png)
-* [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-booklist_rh5fux.png)
-* [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-bookdetail_t5dkui.png)
-* [Your Books Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-yourbooks_agstbm.png)
+* [Home Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/pzqs4sxpynmsj1arreeq)
+* [Book List Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/j8s4siwyeqinldfketj0)
+* [Book Detail Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/byd0az5xsddyappdh7dt)
+* [Your Books Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/g81dw3o14luljgemcidh)
 
 ## Manual Testing
 
