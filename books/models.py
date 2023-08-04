@@ -18,7 +18,7 @@ BOOK_TYPES = (
     ("thriller", "Thriller"),
     ("lgbtq+", "LGBTQ+"),
     ("childrens", "Childrens"),
-    ("biography", "Biograppy"),
+    ("biography", "Biography"),
     ("self-help", "Self-Help"),
     ("travel", "Travel"),
     ("comedy", "Comedy"),
