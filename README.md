@@ -48,26 +48,26 @@ A User Story template was created then Github issues were used to create User St
 ## Design Wireframes
 
 ### Low fidelity mobile wireframes
-* [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-home_honamm.png)
+* [Home Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/ceikrqjqy8nmzypnwjs9)
 * [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-listview_oiec9x.png)
-* [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-mb-detailview_nifvye.png)
-* [Add A Review Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-mb-addreview_j87s9j.png)
-* [Your Books Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-yourbooks_bk5gyq.png)
-* [Log In Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signin_jhfkne.png)
-* [Sign Up Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signup_mgs3f8.png)
-* [Log Out Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-signout_dgvhal.png)
-* [Search Not Found Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076598/wireframe-mb-nonefound_nzvrpw.png)
+* [Book Detail Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/lisegbgqrsgyorhoubqr)
+* [Add A Review Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/w5qun9hqgnoig0aizopj)
+* [Your Books Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/wxo6fnbvcza8jmgkpggh)
+* [Log In Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/dzpdehudkrskklc6zwjy)
+* [Sign Up Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/gdloeh4slybsdn4goox2)
+* [Log Out Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/xxuiigza1uhohwpgkjax)
+* [Search Not Found Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/xylyyidjpoz3b0ht3ltw)
 
 ### Low fidelity pc wireframes
-* [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-home_gmbzap.png)
-* [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-listview_qcwfjz.png)
-* [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-detailview_zfobqz.png)
-* [Add A Review Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-addreview_tahjxq.png)
-* [Your Books Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-yourbooks_omj3hq.png)
-* [Log In Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-signin_dpdqcx.png)
-* [Sign Up Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-signup_xyrdiy.png)
-* [Log Out Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-signout_ni0dus.png)
-* [Search Not Found Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691076597/wireframe-pc-nonefound_aav7ff.png)
+* [Home Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/yrxty4mv7ih7dcwt0jor)
+* [Book List Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/s49xoxjzv3qtv0fsk5bx)
+* [Book Detail Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/xjqy9bkzkkwlwhhwm7kf)
+* [Add A Review Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/uimxok634ya2czflgwsd)
+* [Your Books Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/leoi8ule2uiob2ga5xk7)
+* [Log In Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/umwrw8wqordjaumltibm)
+* [Sign Up Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/llmqpdos19w2w9tn3hmm)
+* [Log Out Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/r6k1t0z10m7yyxfdd3iu)
+* [Search Not Found Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/npgidt51jfahet9ggnzt)
 
 ## Entity Relationship Diagram
 #### Database layout using Exclaidraw
