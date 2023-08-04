@@ -20,15 +20,17 @@
             coffee brewing and have your page tabs handy, because we are ready to dive in!
         </p>
     </section>
-    
-    <section>
-        <div class="book-cont">
-            {% for book in books %}
-            <a href="{% url 'book_detail' book.id %}" class="img-container">
-                <img src="{{book.image.url}}" alt="{{book.image_alt}}" class="img-home">
-            </a>
-            {% endfor %}
-        </div>
+</div>
+<div>
 
+    <div class="book-cont">
+        {% for book in books %}
+        <a href="{% url 'book_detail' book.id %}" class="img-container">
+            <img src="{{book.image.url}}" alt="{{book.image_alt}}" class="img-home">
+        </a>
+        {% endfor %}
+    </div>
 
-        {% endblock %}
+</div>
+
+{% endblock %}

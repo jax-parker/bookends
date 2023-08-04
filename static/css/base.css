@@ -86,6 +86,9 @@ a.nav-link {
     color: var(--white);
 }
 
+a.nav-link:hover {
+    color: var(--light_teal);
+}
 .navbar-nav {
     color: var(--white);
 }
@@ -192,12 +195,6 @@ a .img-container:hover {
     top: 50%;
     left: 50%;
     background-color: var(--off_white);
-}
-.user {
-    border: 1px solid var(--blue);
-    background-color: var(--off_white) ;
-    border-radius: 5px;
-    box-shadow: var(--sm_box_shadow);
 }
 
 /* Media */

@@ -187,12 +187,15 @@ The footer contains social icons which link to the websites social media sites.
 ## Validation
 ### Html Validation
 Html validation was done with [https://validator.w3.org/nu/](https://validator.w3.org/nu/).
-On website page, right click, view page source, copy code and paste into validator. Repeat for each page.
+On the website page, right click, view page source, copy code and paste into validator url after the =. Repeat for each page.
 Results 
 * [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io)
 * [Book List](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io%2Fbooks%2F)
 * [Book Detail](https://validator.w3.org/nu/?doc=https://8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io/books/9/)
+The source code threw in an extra <p> tag which was not in my orignal code. I asked on Slack and got the advice to remove the tag from my code and just leave the {}. This worked and cleared the error.
 
+
+Asked on Slack how to clear the errors.
 ### CSS Validation
 
 The stylesheet was validated using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
@@ -202,7 +205,8 @@ Errors: None
 ### Python Validation
 
 Python code that I have written was validated using [Code institues Python validator](https://pep8ci.herokuapp.com/#)
-No errors were found:
+Extra white space and more than two line errors were found and corrected.
+
 * [main/settings.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-home-settings.py_jodfa5.png)
 * [main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
 * [main/urls.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-main-urls.py_b7sogd.png)
@@ -215,10 +219,10 @@ No errors were found:
 * [books/admin.py](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691074311/test-books-admin.py_wtflbb.png)
 
 ### Lighthouse Testing
-* [Home Page]()
-* [Book List Page]()
-* [Book Detail Page]()
-* [Home Page]()
+* [Home Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-home_eegadi.png)
+* [Book List Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-booklist_rh5fux.png)
+* [Book Detail Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-bookdetail_t5dkui.png)
+* [Your Books Page](https://res.cloudinary.com/dwvsz0fug/image/upload/v1691087532/lighthouse-test-yourbooks_agstbm.png)
 
 ## Manual Testing
 

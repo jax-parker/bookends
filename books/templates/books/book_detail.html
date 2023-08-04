@@ -21,7 +21,7 @@
             </div>
             <div class="comments p-3">
                 <h2>Review</h2>
-                <p>{{ book.comments|safe }}</p>
+                {{ book.comments|safe }}
             </div>
             {% if request.user == book.user %}
             <div class="text-center">
