@@ -1,6 +1,6 @@
 # **Bookends - Project Portfolio 4**
 #Contents
-[Bookends](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/gpthbx2oqnladiwxfmeb)
+![Bookends](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/gpthbx2oqnladiwxfmeb)
 
 Bookends is a fictitious website that provides ideas for any book clubs next best read. Designed 'mobile first' the site provides users with a book list with the book cover, title, author, genre, description and reviews that any site user can add once they have signed up/in. Once signed in the user can edit or delete their entries and see a list of books that they have added.
 
@@ -24,25 +24,25 @@ A User Story template was created then Github issues were used to create User St
 
 ### User Stories
 
-**User Story: Account Registration**
+**User Story: Account Registration (1)**
 * As a Site User I can register an account so that I can view books or add a review
 
-**User Story: LogIn/LogOut/SignUp**
+**User Story: LogIn/LogOut/SignUp (2)**
 * As a Returning Site User I can log in, view books in detail, create my own book listing and review and log out.
 
-**User Story: View Book List**
+**User Story: View Book List (3)**
 * As a Site User I can view a list of books so that I can see the book cover, title and description.
 
-**User Story: Book Detail**
+**User Story: Book Detail (4)**
 * As a Site User I can click on a book in the list view so I can read more details and the review.
 
-**User Story: Create A Review**
+**User Story: Create A Review (5)**
 * As a Site User I can create a book review so that other members can see my reviews.
 
-**User Story: Manage Book Reviews**
+**User Story: Manage Book Reviews (6)**
 * As a Site User I can create, read, update & delete books so that I can manage my book content
 
-**User Story: Search For Books**
+**User Story: Search For Books (7)**
 * As a Site User I can search for books using key words so that I don't have to scroll through the books to get to the one I want
 
 ## Design Wireframes
@@ -70,11 +70,11 @@ A User Story template was created then Github issues were used to create User St
 * [Search Not Found Page](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/npgidt51jfahet9ggnzt)
 
 ## Entity Relationship Diagram
-#### Database layout using Exclaidraw
+#### Database layout using Excalidraw
 ![Database Schema](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/lvdo4io5g0qfj9u7n2vl)
 
 ## Code Schema
-#### Code workflow using Exclaidraw
+#### Code workflow using Excalidraw
 ![Code Schema](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/unhmwreve85djgmj4jiv)
 
 ## Site Structure
@@ -94,13 +94,15 @@ The colour scheme was based around the logo I chose. Looka.com then provided me 
 I chose two fonts from Google Fonts for this project, but both from the same family. Roboto Slab and Roboto (weight:300). Both are contrasting but clear to read.
 # Features
 ## Navigation
+* User stories - 1,2
 The site navigation is done through the navigation bar at the top of each page and does not change in style through out the users navigation of the webisite. 
-There is a search bar which will search through the list of books' titles, authors, description or any word in the review. The nave bar shrinks to a Bootstrap toggle on smaller screens and opens to a dropdown when clicked on. Each link is active so will be underlined when the user is on the specific page.
+There is a search bar which will search through the list of books' titles, authors, description or any word in the review. The nav bar shrinks to a Bootstrap toggle on smaller screens and opens to a dropdown when clicked on. Each link is active so will be underlined when the user is on the specific page.
 
 ![Navbar Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/bgpoufgqmrvmx7jgifq5)
 ![Navbar PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/gw79t4xdkv4kyplopg7g)
 
 ## Home Screen
+* User stories - 1,2
 The Home Screen is visible when the website is opened. Along with the navbar and the footer, the main section contains a message to explain what the webstie is about
 and displays 3 example book covers. These can be clicked on to see an example of the book detail but the user only has access to these three. They will need to sign up to have
 access to the whole library of books and reviews.
@@ -109,12 +111,14 @@ access to the whole library of books and reviews.
 ![Home Page PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/bug3wburfiqhpxupingx)
 
 ## Sign Up Screen
+* User stories - 1
 The sign up page is accessed from either the navigation bar or a link on the log in page for any user who may have clicked login by mistake.
 It uses django-allauth and crispy forms to provide the styling and the settings for user authentication. (Username, Email(optional) and Password)
 
 ![Sign Up Page Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/zgdi0kdiegqca6tebvv9)
 ![Sign Up Page PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/o5v02fmdjje2wvivfzf0)
 ## Login Screen
+* User stories - 2
 The login page is accessed from either the navigation bar or a link on the sign in page for any user who may have clicked signup by mistake.
 It uses django-allauth and crispy forms to provide the styling and the settings for user authentication.  (Username, Password)
 
@@ -122,13 +126,15 @@ It uses django-allauth and crispy forms to provide the styling and the settings 
 ![Login Page PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/cfmvipcpbixy1xarilpj)
 
 ## Book List Screen
+* User stories - 3
 When a user is logged in they can view all the book covers and and the first part of the description. To view the book in more detail in see the 
 review they simply click on the book.
 
 ![Book List Screen Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/gc0kkxuzsgdoqfurpqk4)
-![Book List Screen PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/begq1matrtkjanzoakabv)
+![Book List Screen PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/begq1matrtkjanzoakab)
 
 ## Book Detail Screen
+User stories - 4, 6
 When a user is logged in they can click any book in the list to view the books title, posted by & date, author, book type, full description and review.
 If it is a book that they have posted they can edit the book listing or delete it. If they click delete a confirm deletion page will show with a button
 for them to confirm.
@@ -138,22 +144,26 @@ for them to confirm.
 ![Delete Book Confirmation Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/yijju2czvoe4u3imwmd5)
 ![Delete Book Confirmation PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/cocikl6uber0xp1sn5ft)
 ## Add A Review Screen
+* User stories - 5
 When a user is logged in they click on Add A Review and fill in the form to add thier own book and review it.
 
 ![Add A Review Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/zephbmxhh9ri8kyvmctp)
 ![Add A Review PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/vnljti27utvekgcj4fvb)
 ## Your Books Screen
+* User stories - 6
 When a user is logged in they can view a list of all the books they have added to the website. They can then use the search bar to find their book listing.
 
 ![Your Books Screen Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/w5xknpdvcgacnj5hffxs)
 ![Your Books Screen PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/pxfyzbdvumykddea8tg6)
 ## Logout Screen
+* User stories - 2
 The logout screen can be accessed from the navbar only when the user is logged in. The log out page has a confirmation button to check the user wishes to sign out.
 It uses django all-auth and crispy forms to provide the styling and the settings for user confirmation. 
 
 ![Sign Out Confirm Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/pmpv8rerpsihnatp8rbe)
 ![Sign Out Confirm PC](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/lgg23wxpkpxn37gwh8ps)
 ## Search Bar (not found) screen
+* User stories - 7
 When a user types into the search bar but nothing is found a page to say there was no result is displayed and a button to take the user back to the book list. 
 
 ![No Search Mobile](https://res.cloudinary.com/dlamq4hsk/image/upload/f_auto,q_auto/v1/Bookends/p9rq5yy6bn1gkeatuhch)
@@ -192,7 +202,8 @@ Results
 * [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io)
 * [Book List](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io%2Fbooks%2F)
 * [Book Detail](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-jaxparker-bookends-r6l7rti2x81.ws-eu102.gitpod.io%2Fbooks%2F17%2F)
-The source code threw in an extra <p> tag which was not in my orignal code. I asked on Slack and got the advice to remove the tag from my code and just leave the {}. This worked and cleared the error.
+
+The source code threw in an extra p tag which was not in my orignal code. I asked on Slack and got the advice to remove the tag from my code and just leave the {}. This worked and cleared the error.
 
 ### CSS Validation
 
